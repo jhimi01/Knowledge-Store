@@ -9,27 +9,52 @@ import {
 import Statistic from './component/Statistic';
 import Job from './component/Job';
 import Blog from './component/Blog';
+import ErrorPage from './component/ErrorPage';
+import Home from './component/Home';
+import Feature from './component/Features';
+import Viewdetails from './component/Viewdetails';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    // errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
-        path: 'statistic',
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/view/:id",
+        element:<Viewdetails></Viewdetails>,
+        loader: (({params})=>fetch('/Feature.json'))
+        // loader: ({ params })=>fetch(`feature.json/${params.id}`)
+      }
+      ,{
+        path: '/statistic',
         element: <Statistic></Statistic>
-      },
-      {
-        path: 'job',
+      },{
+        path: '/job',
         element: <Job></Job>
-      },
-      {
-        path:'blog',
+      },{
+        path:'/blog',
         element: <Blog></Blog>
       }
     ]
-  }
+  },
+  // {
+  //       path: '/statistic',
+  //       element: <Statistic></Statistic>
+  //     },
+  //     {
+  //       path: '/job',
+  //       element: <Job></Job>
+  //     },
+  //     {
+  //       path:'/blog',
+  //       element: <Blog></Blog>
+  //     }
 ]);
 
 

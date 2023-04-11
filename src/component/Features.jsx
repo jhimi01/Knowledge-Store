@@ -3,6 +3,8 @@ import Featureitem from './Featureitem';
 
 const Feature = () => {
 
+    const [show, setShow] = useState(false)
+
     const[feature, setFeature] = useState([])
 
     useEffect(()=>{
@@ -10,8 +12,6 @@ const Feature = () => {
         .then(res => res.json())
         .then(data => setFeature(data))
     },[])
-
-    console.log(feature)
 
 
     return (
@@ -21,12 +21,12 @@ const Feature = () => {
 
          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-6 md:gap-8 text-left">
          {
-            feature.map(featureitem => <Featureitem key={featureitem.id} featureitem={featureitem}></Featureitem>)
+           feature.slice(0, show ? 8 : 4).map(featureitem => <Featureitem key={featureitem.id} featureitem={featureitem}></Featureitem>)
           }
          </div>
 
-         <button className="border-0 bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-4 rounded text-white font-bold">See all</button>
-
+        {!show && ( <button onClick={()=>setShow(true)} className="border-0 bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-4 rounded text-white font-bold">See all</button>
+)}
         </div>
     );
 };

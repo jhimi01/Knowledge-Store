@@ -7,11 +7,8 @@ import Features from './component/Features'
 function App() {
 
   return (
-    <div className="App md:mx-12 mx-5">
-    <Header></Header>
-    {/* <JobCatagory></JobCatagory> */}
-    <Features></Features>
-      <Outlet></Outlet>
+    <div className="App">
+    <Outlet></Outlet>
     </div>
   )
 }

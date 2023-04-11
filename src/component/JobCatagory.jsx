@@ -10,8 +10,6 @@ const JobCatagory = () => {
         .then(data => setCatagory(data))
     },[])
 
-    console.log(catagory)
-
     return (
         <div className='pt-12 my-7'>
             <h2 className='text-4xl font-bold text-gray-900'>Job Category List</h2>
