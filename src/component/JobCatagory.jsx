@@ -13,7 +13,7 @@ const JobCatagory = () => {
     console.log(catagory)
 
     return (
-        <div className='pt-12 my-7 mx-12'>
+        <div className='pt-12 my-7'>
             <h2 className='text-4xl font-bold text-gray-900'>Job Category List</h2>
             <p className='text-gray-600 my-3'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 

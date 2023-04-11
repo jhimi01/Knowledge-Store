@@ -22,7 +22,7 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-    <Link to='/' className=" normal-case text-3xl">Knowledge Store</Link>
+    <Link to='/' className="font-bold text-gray-900 normal-case text-3xl">Knowledge Store</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
