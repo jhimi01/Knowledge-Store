@@ -27,12 +27,12 @@ const AppliedJob = () => {
     return (
         <div className='pt-4 px-7 relative'>
         <Navbar></Navbar>
-        <div className='absolute right-20'>
-        <div className="dropdown dropdown-bottom dropdown-end">
+      
 
 
         {/* dropdown dropdown-end */}
-        <div className="dropdown dropdown-end my-4 ">
+        {
+          localStorage.getItem('applied-jobs')?  <div className="dropdown dropdown-end absolute right-10">
  <div className='flex items-center flex-row bg-gray-200 py-3 px-4 m-1 rounded'>
  <label tabIndex={0} className=" text-gray-600 font-bold cursor-pointer rounded ">filter
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
@@ -45,13 +45,13 @@ const AppliedJob = () => {
   <button className='hover:bg-slate-300 rounded text-gray-700 font-semibold' onClick={()=>Outsiehandler('Outsie')}>Outsie</button>
   <button className='hover:bg-slate-300 rounded text-gray-700 font-semibold' onClick={()=>setRemote(appliedjobs)}>All</button>
   </ul>
-</div>
-</div>
-</div>
-          <div className='mt-28'>
+</div>:''
+        }
+
+          <div className='mt-20'>
           {
               
-              localStorage.getItem('applied-jobs')?remote.map(job => <ReviewJob job={job} key={job.id}></ReviewJob>):<h2>You didn't applied any job</h2>
+              localStorage.getItem('applied-jobs')?remote.map(job => <ReviewJob job={job} key={job.id}></ReviewJob>):<h2 className='text-5xl font-bold text-gray-800'>You didn't applied any job</h2>
           }
           </div>
         </div>
