@@ -1,5 +1,8 @@
+
+
 // use local storage to manage cart data
 const addToDb = id => {
+    
     let jobId = []
     const storedId = localStorage.getItem('applied-jobs')
     if (storedId) {
@@ -10,6 +13,8 @@ const addToDb = id => {
         jobId = [...JSON.parse(storedId), ...id]
     }else{
         jobId = [...id]
+        alert('applied jobs succesfully')
+    
     }
     const newId = JSON.stringify(jobId)
     localStorage.setItem('applied-jobs', newId)

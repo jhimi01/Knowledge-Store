@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div>
      <div className="navbar">
-  <div className="navbar-start">
+  <div className="navbar-start mx-auto">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -25,7 +25,7 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-    <Link to='/' className="font-bold text-gray-900 normal-case text-3xl">Knowledge Store</Link>
+    <Link to='/' className="font-bold text-gray-900 normal-case md:text-3xl text-xl">Knowledge Store</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -44,7 +44,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end ">
-    <button className="border-0 bg-gradient-to-r from-cyan-500 to-blue-800 py-3 px-4 rounded text-white font-bold">Get started</button>
+    <button className="border-0 bg-gradient-to-r hidden md:block from-cyan-500 to-blue-800 md:py-3 md:px-4 p-1 rounded text-white font-bold">Get started</button>
   </div>
 </div>
         </div>

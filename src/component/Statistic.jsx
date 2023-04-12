@@ -58,12 +58,8 @@ const Statistic = () => {
                                   
       
     return (
-        <div className='pt-4 px-7'>
+        <div className='pt-4 px-7 mb-7'>
         <Navbar></Navbar>
-        <div className='mt-8'>
-        <Link className="border-0 bg-gradient-to-r from-cyan-500 to-blue-500 py-3 px-4 rounded text-white font-bold" to="/"><button>go to home</button></Link>
-        </div>
-
         <ComposedChart className='mt-12 mx-auto'  width={1000} height={500} data={data}>
         <XAxis dataKey="name" />
         <YAxis />
