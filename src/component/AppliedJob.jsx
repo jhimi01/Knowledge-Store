@@ -27,7 +27,7 @@ const AppliedJob = () => {
     return (
        <div className=''>
          <div className=' relative'>
-       <div style={{backgroundImage: `url("../../assets/All Images/Vector-1.png")`, backgroundRepeat:'no-repeat', objectFit:'cover', height:'300px', width: '100%'}}>
+       <div style={{backgroundImage: `url("../../assets/All Images/Vector-1.png")`, backgroundRepeat:'no-repeat', objectFit:'cover', height:'200px', width: '100%'}}>
        <div className='pt-4 px-7'>
 
        <Navbar></Navbar>
