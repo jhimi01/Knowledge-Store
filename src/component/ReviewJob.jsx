@@ -10,7 +10,7 @@ const ReviewJob = ({job}) => {
  
 
     return (
-        <div className='border md:mb-0 mb-3 rounded w-5/6 mx-auto'>
+        <div className='border mb-3 rounded w-5/6 mx-auto'>
         <div className="card card-side bg-base-100 flex md:flex-row flex-col gap-2 shadow-xl">
   <figure className='bg-base-300 px-5'><img className='w-60' src={conpany_logo} alt="Movie"/></figure>
   <div className="card-body">
