@@ -35,7 +35,7 @@ const Viewdetails = () => {
 
     return (
         <>
-            <div className='header-bg' style={{backgroundImage: `url("../../assets/All Images/Vector-1.png")`}}>
+            <div className='header-bg' style={{backgroundImage: `url("../../assets/All Images/Vector-1.png")`, backgroundRepeat:'no-repeat', objectFit:'cover'}}>
         <Navbar></Navbar>
         <h2 className='text-5xl mt-12 text-cyan-700 font-semibold'>Job Details</h2>
         </div>

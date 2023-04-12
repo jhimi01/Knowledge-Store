@@ -25,8 +25,15 @@ const AppliedJob = () => {
 
 
     return (
-        <div className='pt-4 px-7 relative'>
-        <Navbar></Navbar>
+       <div className=''>
+         <div className=' relative'>
+       <div style={{backgroundImage: `url("../../assets/All Images/Vector-1.png")`, backgroundRepeat:'no-repeat', objectFit:'cover', height:'300px', width: '100%'}}>
+       <div className='pt-4 px-7'>
+
+       <Navbar></Navbar>
+       </div>
+       <h2 className='text-5xl mt-12 text-cyan-700 font-semibold'>Applied job</h2>
+       </div>
       
 
 
@@ -55,6 +62,7 @@ const AppliedJob = () => {
           }
           </div>
         </div>
+       </div>
     );
 };
 
