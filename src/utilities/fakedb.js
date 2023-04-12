@@ -7,14 +7,16 @@ const addToDb = id => {
     const storedId = localStorage.getItem('applied-jobs')
     if (storedId) {
         if (storedId.includes(id)) {
-            alert('Job already exists')
+            alert('You already Applied')
             // toast("Job already exists")
             return
         }
+        alert('Succesfully Applied')
+
         jobId = [...JSON.parse(storedId), ...id]
     }else{
+        // alert('applied jobs succesfully')
         jobId = [...id]
-        alert('applied jobs succesfully')
         // toast("applied jobs succesfully");
     
     }
