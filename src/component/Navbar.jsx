@@ -12,16 +12,16 @@ const Navbar = () => {
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
       <li className='text-xl'>
-            <NavLink title='home' to='/'  className={({ isActive }) => (isActive ? 'active' : 'default')}>Home</NavLink>
+            <NavLink title='home' to='/'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Home</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='statistic' to='statistic'  className={({ isActive }) => (isActive ? 'active' : 'default')}>Statistic</NavLink>
+            <NavLink title='statistic' to='statistic'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Statistic</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='job' to='job'  className={({ isActive }) => (isActive ? 'active' : 'default')}>Applie Jobs</NavLink>
+            <NavLink title='job' to='job'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Applie Jobs</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='blog' to='blog'  className={({ isActive }) => (isActive ? 'active' : 'default')}>Blog</NavLink>
+            <NavLink title='blog' to='blog'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Blog</NavLink>
         </li>
       </ul>
     </div>
@@ -30,21 +30,21 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
     <li className='text-xl'>
-            <NavLink title='home' to='/'  className={({ isActive }) => (isActive ? 'active' : 'default')}>Home</NavLink>
+            <NavLink title='home' to='/'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Home</NavLink>
         </li>
     <li className='text-xl'>
-            <NavLink title='statistic' to='/statistic'  className={({ isActive }) => (isActive ? 'active' : 'default')}>Statistic</NavLink>
+            <NavLink title='statistic' to='/statistic'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Statistic</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='job' to='/job'  className={({ isActive }) => (isActive ? 'active' : 'default')}>Applie Jobs</NavLink>
+            <NavLink title='job' to='/job'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Applie Jobs</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='blog' to='/blog'  className={({ isActive }) => (isActive ? 'active' : 'default')}>Blog</NavLink>
+            <NavLink title='blog' to='/blog'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Blog</NavLink>
         </li>
     </ul>
   </div>
   <div className="navbar-end ">
-    <button className="border-0 bg-gradient-to-r from-cyan-500 to-blue-500 py-3 px-4 rounded text-white font-bold">Get started</button>
+    <button className="border-0 bg-gradient-to-r from-cyan-500 to-blue-800 py-3 px-4 rounded text-white font-bold">Get started</button>
   </div>
 </div>
         </div>

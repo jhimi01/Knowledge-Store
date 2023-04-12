@@ -20,7 +20,7 @@ const Featureitem = ({featureitem}) => {
            <p className='ml-4'>Salary:{salary}</p>
            </div>
            <Link to={`/view/${id}`}>
-           <button className="border-0 bg-gradient-to-r from-cyan-500 to-blue-500 py-3 px-4 rounded text-white font-bold mt-4">View Details</button>
+           <button className="border-0 bg-gradient-to-r from-cyan-500 to-blue-800 py-3 px-4 rounded text-white font-bold mt-4">View Details</button>
            </Link>
         </div>
     );

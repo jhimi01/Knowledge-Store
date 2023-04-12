@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 const Job = () => {
     return (
-        <div>
+        <div className='pt-4 px-7'>
         <Navbar></Navbar>
             job section
         </div>

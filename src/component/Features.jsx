@@ -25,7 +25,7 @@ const Feature = () => {
           }
          </div>
 
-        {!show && ( <button onClick={()=>setShow(true)} className="border-0 bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-4 rounded text-white font-bold">See all</button>
+        {!show && ( <button onClick={()=>setShow(true)} className="border-0 bg-gradient-to-r from-cyan-500 to-blue-800 py-2 px-4 rounded text-white font-bold">See all</button>
 )}
         </div>
     );

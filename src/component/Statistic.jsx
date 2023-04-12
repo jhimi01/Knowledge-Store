@@ -58,7 +58,7 @@ const Statistic = () => {
                                   
       
     return (
-        <div >
+        <div className='pt-4 px-7'>
         <Navbar></Navbar>
         <div className='mt-8'>
         <Link className="border-0 bg-gradient-to-r from-cyan-500 to-blue-500 py-3 px-4 rounded text-white font-bold" to="/"><button>go to home</button></Link>

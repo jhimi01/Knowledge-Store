@@ -2,13 +2,13 @@
     {
       "id": "1",
       "conpany_logo": "../../src/assets/All Images/CareerHub.png",
-      "Job_title": "Software Engineer",
+      "Job_title": "Technical Database Engineer",
       "Caompany_name": "Google LLC",
       "remote_partTIme": "Remote",
       "location": "California",
       "fulltime_or_partTime": "Full-time",
-      "salary": "$100-$2000",
-      "job-description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "salary": "$4100-$2000",
+      "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
       "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
       "education": "Bachelor degree to complete any reputational university.",
       "Experiences": "2-3 Years in this field.",
@@ -21,77 +21,77 @@
     {
         "id": "2",
         "conpany_logo": "../../src/assets/All Images/google-1-1 1.png",
-        "Job_title": "Software Engineer",
+        "Job_title": "Senior Product Designer",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Remote",
         "location": "California",
         "fulltime_or_partTime": "Full-time",
-        "salary": "$100-$2000",
-        "job-description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "$1500-$1000",
+        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
         "Experiences": "2-3 Years in this field.",
         "contact_information": {
             "phone": "3234-32-5666",
             "email": "jobs@acfdg.com",
-            "address":"Dhaka, Bangldesh"
+            "address":"san-franseco, USA"
         }
       },
     {
         "id": "3",
         "conpany_logo": "../../src/assets/All Images/Group 10021.png",
-        "Job_title": "Software Engineer",
+        "Job_title": "Technical Database Engineer",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Remote",
         "location": "California",
         "fulltime_or_partTime": "Full-time",
-        "salary": "$100-$2000",
-        "job-description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "$3300-$1000",
+        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
         "Experiences": "2-3 Years in this field.",
         "contact_information": {
             "phone": "3234-32-5666",
             "email": "jobs@acfdg.com",
-            "address":"Dhaka, Bangldesh"
+            "address":"Sydney, Australia"
         }
       },
     {
         "id": "4",
         "conpany_logo": "../../src/assets/All Images/netflix-4 1.png",
-        "Job_title": "Software Engineer",
+        "Job_title": "Netflix Project",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Remote",
         "location": "California",
         "fulltime_or_partTime": "Full-time",
-        "salary": "$100-$2000",
-        "job-description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "$1300-$25000",
+        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
         "Experiences": "2-3 Years in this field.",
         "contact_information": {
             "phone": "3234-32-5666",
             "email": "jobs@acfdg.com",
-            "address":"Dhaka, Bangldesh"
+            "address":"Tokyo, Japan"
         }
       },
     {
         "id": "5",
         "conpany_logo": "../../src/assets/All Images/netflix-4 1.png",
-        "Job_title": "Software Engineer",
+        "Job_title": "Google Manager",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Remote",
         "location": "California",
         "fulltime_or_partTime": "Full-time",
-        "salary": "$100-$2000",
-        "job-description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "$1800-$2000",
+        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
         "Experiences": "2-3 Years in this field.",
         "contact_information": {
             "phone": "3234-32-5666",
             "email": "jobs@acfdg.com",
-            "address":"Dhaka, Bangldesh"
+            "address":"chottogram, Bangldesh"
         }
       },
     {
@@ -102,26 +102,7 @@
         "remote_partTIme": "Remote",
         "location": "California",
         "fulltime_or_partTime": "Full-time",
-        "salary": "$100-$2000",
-        "job-description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "education": "Bachelor degree to complete any reputational university.",
-        "Experiences": "2-3 Years in this field.",
-        "contact_information": {
-            "phone": "3234-32-5666",
-            "email": "jobs@acfdg.com",
-            "address":"Dhaka, Bangldesh"
-        }
-      },
-    {
-        "id": "7",
-        "conpany_logo": "../../src/assets/All Images/CareerHub.png",
-        "Job_title": "Software Engineer",
-        "Caompany_name": "Google LLC",
-        "remote_partTIme": "Remote",
-        "location": "California",
-        "fulltime_or_partTime": "Full-time",
-        "salary": "$100-$2000",
+        "salary": "$2100-$3000",
         "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
@@ -129,7 +110,26 @@
         "contact_information": {
             "phone": "3234-32-5666",
             "email": "jobs@acfdg.com",
-            "address":"Dhaka, Bangldesh"
+            "address":"california, USA"
+        }
+      },
+    {
+        "id": "7",
+        "conpany_logo": "../../src/assets/All Images/CareerHub.png",
+        "Job_title": "Company Manager",
+        "Caompany_name": "Google LLC",
+        "remote_partTIme": "Remote",
+        "location": "California",
+        "fulltime_or_partTime": "Full-time",
+        "salary": "$3100-$5000",
+        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "education": "Bachelor degree to complete any reputational university.",
+        "Experiences": "2-3 Years in this field.",
+        "contact_information": {
+            "phone": "3234-32-5666",
+            "email": "jobs@acfdg.com",
+            "address":"Kolkata, India"
         }
       },
     {
@@ -140,8 +140,8 @@
         "remote_partTIme": "Remote",
         "location": "California",
         "fulltime_or_partTime": "Full-time",
-        "salary": "$100-$2000",
-        "job-description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+        "salary": "$7100-$2000",
+        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
         "Job_Responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "education": "Bachelor degree to complete any reputational university.",
         "Experiences": "2-3 Years in this field.",
