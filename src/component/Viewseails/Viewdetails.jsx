@@ -12,6 +12,7 @@ import locationn from '../../assets/Icons/Frame-4.png'
 import './Viewdeails.css'
 import Footer from '../Footer';
 import { addToDb } from '../../utilities/fakedb';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const Viewdetails = () => {
@@ -75,6 +76,7 @@ const Viewdetails = () => {
                </div>
             </div>
         <button onClick={handleApplyjob} className="border-0 my-2 rounded w-full bg-gradient-to-r from-cyan-500 to-blue-800 py-3 px-4 text-white font-bold">Apply Job</button>
+        <ToastContainer />
         </div>
         </div>
         <div>

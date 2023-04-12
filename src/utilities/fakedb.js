@@ -1,4 +1,4 @@
-
+import { ToastContainer, toast } from 'react-toastify';
 
 // use local storage to manage cart data
 const addToDb = id => {
@@ -8,12 +8,14 @@ const addToDb = id => {
     if (storedId) {
         if (storedId.includes(id)) {
             alert('Job already exists')
+            // toast("Job already exists")
             return
         }
         jobId = [...JSON.parse(storedId), ...id]
     }else{
         jobId = [...id]
         alert('applied jobs succesfully')
+        // toast("applied jobs succesfully");
     
     }
     const newId = JSON.stringify(jobId)
@@ -33,6 +35,7 @@ const getjobdetails = (data) => {
         }
     }
     return appliedJobs;
+    
 }
 
 
