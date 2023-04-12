@@ -10,6 +10,8 @@ import phone from '../../assets/Icons/Frame-2.png'
 import email from '../../assets/Icons/Frame-3.png'
 import locationn from '../../assets/Icons/Frame-4.png'
 import './Viewdeails.css'
+import Footer from '../Footer';
+import { addToDb } from '../../utilities/fakedb';
 
 
 const Viewdetails = () => {
@@ -25,7 +27,11 @@ const Viewdetails = () => {
     setData(viewdata)
    },[details, id])
 
-   const{Job_Responsibility, job_description, education, contact_information, location, salary, Experiences, Job_title}= data
+   const{Job_Responsibility, job_description, education, contact_information, location, salary, Experiences, Job_title}= data;
+
+   const handleApplyjob = () => {
+    addToDb(id)
+   }
 
    console.log(contact_information)
     return (
@@ -69,7 +75,7 @@ const Viewdetails = () => {
                 <h2 className='text-1xl text-gray-950 font-bold'>Address : <span className=' text-gray-700 font-normal text-lg'> {contact_information?.address}</span></h2>
                </div>
             </div>
-        <button className="border-0 my-2 rounded w-full bg-gradient-to-r from-cyan-500 to-blue-800 py-3 px-4 text-white font-bold">Apply Job</button>
+        <button onClick={handleApplyjob} className="border-0 my-2 rounded w-full bg-gradient-to-r from-cyan-500 to-blue-800 py-3 px-4 text-white font-bold">Apply Job</button>
         </div>
         </div>
         <div>

@@ -15,13 +15,13 @@ const Navbar = () => {
             <NavLink title='home' to='/'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Home</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='statistic' to='statistic'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Statistic</NavLink>
+            <NavLink title='statistic' to='/statistic'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Statistic</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='job' to='job'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Applie Jobs</NavLink>
+            <NavLink title='job' to='/job'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Applie Jobs</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='blog' to='blog'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Blog</NavLink>
+            <NavLink title='blog' to='/blog'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Blog</NavLink>
         </li>
       </ul>
     </div>

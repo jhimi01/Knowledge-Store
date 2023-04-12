@@ -7,19 +7,21 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Statistic from './component/Statistic';
-import Job from './component/Job';
+import Job from './component/AppliedJob';
 import Blog from './component/Blog';
 import ErrorPage from './component/ErrorPage';
 import Home from './component/Home';
 import Feature from './component/Features';
 import Viewdetails from './component/Viewseails/Viewdetails';
+import { getjobdetails } from './utilities/fakedb';
+import AppliedJob from './component/AppliedJob';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    errorElement:<ErrorPage></ErrorPage>,
+    // errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -29,14 +31,14 @@ const router = createBrowserRouter([
         path: "/view/:id",
         element:<Viewdetails></Viewdetails>,
         loader: (({params})=>fetch('/Feature.json'))
-        // loader: ({ params })=>fetch(`feature.json/${params.id}`)
       }
       ,{
         path: '/statistic',
         element: <Statistic></Statistic>
       },{
         path: '/job',
-        element: <Job></Job>
+        element: <AppliedJob></AppliedJob>,
+        loader: (({params})=>fetch('/Feature.json'))
       },{
         path:'/blog',
         element: <Blog></Blog>
