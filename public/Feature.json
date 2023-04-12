@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "conpany_logo": "../../src/assets/All Images/CareerHub.png",
+      "conpany_logo": "../assets/All Images/CareerHub.png",
       "Job_title": "Technical Database Engineer",
       "Caompany_name": "Google LLC",
       "remote_partTIme": "Outsie",
@@ -20,7 +20,7 @@
     },
     {
         "id": "2",
-        "conpany_logo": "../../src/assets/All Images/google-1-1 1.png",
+        "conpany_logo": "../assets/All Images/google-1-1 1.png",
         "Job_title": "Senior Product Designer",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Remote",
@@ -39,7 +39,7 @@
       },
     {
         "id": "3",
-        "conpany_logo": "../../src/assets/All Images/Group 10021.png",
+        "conpany_logo": "../assets/All Images/Group 10021.png",
         "Job_title": "Technical Database Engineer",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Remote",
@@ -58,7 +58,7 @@
       },
     {
         "id": "4",
-        "conpany_logo": "../../src/assets/All Images/netflix-4 1.png",
+        "conpany_logo": "../assets/All Images/netflix-4 1.png",
         "Job_title": "Netflix Project",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Outsie",
@@ -77,7 +77,7 @@
       },
     {
         "id": "5",
-        "conpany_logo": "../../src/assets/All Images/netflix-4 1.png",
+        "conpany_logo": "../assets/All Images/netflix-4 1.png",
         "Job_title": "Google Manager",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Outsie",
@@ -96,7 +96,7 @@
       },
     {
         "id": "6",
-        "conpany_logo": "../../src/assets/All Images/Group 10021.png",
+        "conpany_logo": "../assets/All Images/Group 10021.png",
         "Job_title": "Software Engineer",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Remote",
@@ -115,7 +115,7 @@
       },
     {
         "id": "7",
-        "conpany_logo": "../../src/assets/All Images/CareerHub.png",
+        "conpany_logo": "../assets/All Images/CareerHub.png",
         "Job_title": "Company Manager",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Outsie",
@@ -134,7 +134,7 @@
       },
     {
         "id": "8",
-        "conpany_logo": "../../src/assets/All Images/tesla-9 1.png",
+        "conpany_logo": "../assets/All Images/tesla-9 1.png",
         "Job_title": "Software Engineer",
         "Caompany_name": "Google LLC",
         "remote_partTIme": "Remote",

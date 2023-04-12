@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import locationlogo from '../assets/Icons/Location Icon.png'
+import locationlogo from '../../public/assets/Icons/Location Icon.png'
 
 const ReviewJob = ({job, filtervalueremote}) => {
     const {Caompany_name,conpany_logo, Job_title,id, location, remote_partTIme, salary, fulltime_or_partTime} = job;

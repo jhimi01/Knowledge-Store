@@ -1,5 +1,6 @@
 import React from 'react';
-import locationlogo from '../assets/Icons/Location Icon.png'
+import locationlogo from '../../public/assets/Icons/Location Icon.png'
+// import locationlogo from '../assets/Icons/Location Icon.png'
 import { Link } from 'react-router-dom';
 // import locationlogo from '../src/assets/Icons/Frame-4.png'
 
