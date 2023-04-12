@@ -33,7 +33,6 @@ const Viewdetails = () => {
     addToDb(id)
    }
 
-   console.log(contact_information)
     return (
         <>
             <div className='header-bg' style={{backgroundImage: `url("../../assets/All Images/Vector-1.png")`}}>

@@ -11,8 +11,8 @@ const Featureitem = ({featureitem}) => {
             <h4 className='text-2xl font-bold text-gray-900 my-2'>{Job_title}</h4>
             <p className='text-gray-600'>{Caompany_name}</p>
             <div className='flex gap-2'>
-                <span className='py-2 px-4 my-2 bg-cyan-100 text-cyan-700'>Remote</span>
-                <span className='py-2 px-4 my-2 bg-cyan-100 text-cyan-700'>Full Time</span>
+                <span className='py-2 px-4 my-2 bg-cyan-100 text-cyan-700'>{remote_partTIme}</span>
+                <span className='py-2 px-4 my-2 bg-cyan-100 text-cyan-700'>{fulltime_or_partTime}</span>
             </div>
            <div className='text-gray-600 flex gap-1'>
            <img src={locationlogo}/>
