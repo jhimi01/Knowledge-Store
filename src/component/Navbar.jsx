@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='sticky top-0 backdrop-blur-md'>
      <div className="navbar">
   <div className="navbar-start mx-auto">
     <div className="dropdown">
@@ -21,7 +21,7 @@ const Navbar = () => {
             <NavLink title='job' to='/job'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Applie Jobs</NavLink>
         </li>
         <li className='text-xl'>
-            <NavLink title='blog' to='/blog'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Blog</NavLink>
+            <NavLink title='blog' to='/blog'  className={({ isActive }) => (isActive ? 'text-cyan-600' : 'default')}>Blogg</NavLink>
         </li>
       </ul>
     </div>

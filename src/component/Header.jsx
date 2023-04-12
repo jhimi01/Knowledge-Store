@@ -5,7 +5,7 @@ import Banner from './Banner';
 const Header = () => {
     return (
         <div className='pt-4 px-7'>
-              <Navbar></Navbar>
+              {/* <Navbar></Navbar> */}
       <Banner></Banner>
         </div>
     );
